@@ -1,0 +1,7 @@
+alias g='git'
+alias l='ls -lahFG'
+alias ll='ls -lhoFG'
+alias r='npm run'
+alias t='tig'
+alias v='vim'
+alias y='yarn'

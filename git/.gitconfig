@@ -1,0 +1,18 @@
+[alias]
+aliases = "!git config --get-regexp 'alias.*' | colrm 1 6 | sed 's/[ ]/ = /'"
+s  = status
+d  = diff
+f  = fetch
+co = checkout
+ca = commit --amend --no-edit
+r  = "!git reset --hard @{u}"
+fr = "!git f; git r"
+a  = add
+cm = commit -m
+p  = push -u origin HEAD
+
+[include]
+path = .gitconfig.extra
+
+[remote "origin"]
+prune = true
