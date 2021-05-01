@@ -28,3 +28,4 @@ if [[ $TERM_PROGRAM == "Apple_Terminal" ]] {
 
 export LSCOLORS=Gxfxcxdxbxegedabagacad
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH=/opt/homebrew/bin:$PATH
