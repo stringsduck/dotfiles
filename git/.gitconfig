@@ -16,3 +16,7 @@ path = .gitconfig.extra
 
 [remote "origin"]
 prune = true
+
+[user]
+name = Adam Stringfellow
+email = adam.stringfellow@gmail.com
