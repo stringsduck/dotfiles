@@ -11,12 +11,12 @@ a  = add
 cm = commit -m
 p  = push -u origin HEAD
 
-[include]
-path = .gitconfig.extra
-
 [remote "origin"]
 prune = true
 
 [user]
 name = Adam Stringfellow
 email = adam.stringfellow@gmail.com
+
+[includeIf "gitdir:~/dev/fanduel/"]
+    path = ~/.gitconfig.fanduel
